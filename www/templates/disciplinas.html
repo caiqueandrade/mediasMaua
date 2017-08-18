@@ -1,0 +1,10 @@
+<ion-view>
+    <ion-nav-title>Disciplinas</ion-nav-title>
+    <ion-content>
+        <ion-list>
+            <ion-item class="item" ng-repeat="disciplina in disciplinas" ng-click="ir()">
+                {{disciplina.nome}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
